@@ -1,0 +1,199 @@
+  html, body {
+            font-family: "RobotoCondensed-Regular";
+            font-size: 12px;
+            font-weight: bold;
+            text-align: justify;
+            background-color: #FFFFFF; 
+
+
+		}
+		span{
+			font-family: "RobotoCondensed-Regular";
+		}
+.arkaplan{
+
+	background-image: url(img/backg.jpg);
+    background-color: #FFFFFF;    background-size: cover;
+    background-position: center;
+}.arkaplan2{
+
+	background-image: url(img/backg2.jpg);
+    background-color: #FFFFFF;    background-size: cover;
+    background-position: center;
+}
+.MainBosluk{
+	margin-top:5%;
+}
+.MainForm{
+	height:100%;
+	text-align:center;	
+
+}
+.AraForm {
+	
+		height:100%;
+  	background-color: #FFFFFF
+
+	
+}
+
+
+
+.icon-user:before{
+	font-size:50px;
+		align-items:center;
+
+}
+.icon-help:before{
+	font-size:50px;
+	align-items:center;
+}
+.icon-plus-roll:before {
+	font-size:150px;
+	align-items:center;
+}
+.icon-search:before {
+font-size:150px;
+	align-items:center;
+
+}
+.icon-x-line:before {
+	font-size:200px;
+	align-items:center;
+}
+.icon-checkbox:before {
+	font-size:200px;
+	align-items:center;
+}
+.icon-alert-line:before {
+	font-size:150;
+	align-items:center;
+	
+}
+.icon-arrow1-l{
+	font-size:70px;
+	align-items:center;
+	
+}
+
+.icon-notification:before {
+	font-size:150px;
+	align-items:center;
+}
+
+.mainKullanici p{
+
+margin-left: 5%;
+margin-right: 10%
+
+
+
+
+}
+.mainbutton{
+	background-color: #0082C3;
+	margin-bottom: 50px;
+	font-size:50px; 	
+	display:flex!important;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
+	 font-weight:10px;	
+		  opacity: 0.8;
+		  width:100%;
+		  margin-top: 20%;
+
+      filter: alpha(opacity=40);
+}
+.buttonContainer{
+	width:100%;
+	margin:auto;
+	display:flex;
+}
+.mainbutton span{
+	width:100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	padding: 10px;
+	width: 100%
+
+}
+select {
+    padding:15px;
+	font-size:  30px;
+	
+}
+
+.EkleForm{
+
+	position: relative;
+}
+.EkleForm button {
+    padding: 2%;
+	background-color: #0082C3;
+	left:6%
+
+	
+
+}
+.EkleForm2{
+
+position: relative;
+	padding: 10%;
+}
+.btnben{
+	padding: 5px;
+	background-color: #0082C3;
+    width: 100%;
+
+
+}
+.arabutton{
+	
+	background-color: #FFFFFF;
+	font-size:20px; 	
+	padding: 5%;
+    width: 100%;
+
+
+}
+.buttonContainer2{
+	width:100%;
+	margin:auto;
+	display:flex;
+}
+.EkleForm2 button{
+
+	 padding: 8%;
+	background-color: #0082C3;
+	left:80%
+
+}
+
+
+.user-icon{
+background-color: #0082C3;
+border-radius: 50%;
+padding:20px;
+width:20%;
+margin:auto;
+}
+.icon-user:before {
+  font-size: 150px;
+  
+  
+}
+.usttaraf{
+
+	   
+		width: 94%;
+		background-color: #0082C3;
+		padding: 3%;
+
+}
+.usttaraf span{
+font-size: 30px;
+
+}
