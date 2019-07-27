@@ -12,7 +12,7 @@
 <div class="usttaraf"> 
    
 <?php include "./Modul/hamburgerbar.php"; ?>
- <span style="color:white"> Ürün Ekle</span>
+ <span style="color:white"class="ustyazi"> Ürün Ekle</span>
 </div>
 
 
@@ -20,7 +20,7 @@
 
 
     <label for="uname"><b>Ürün Item Kodu:</b></label>
-    <input type="text" padding=19%; placeholder="Ürün item kodunu giriniz" name="uname" required>
+    <input type="text"  placeholder="Ürün item kodunu giriniz" name="uname" required>
 
     <button class="EkleForm button" type="button" >Ürün Bul</button>
 
@@ -30,7 +30,7 @@
    
 <div class="EkleForm2">
 
-    <button class="EkleForm2 button" type="button" >Ürün Bul</button>
+    <button class="EkleForm button" type="button" >Ürün Bul</button>
 
 
 </div>

@@ -1,6 +1,6 @@
   html, body {
             font-family: "RobotoCondensed-Regular";
-            font-size: 12px;
+            font-size: 30px;
             font-weight: bold;
             text-align: justify;
             background-color: #FFFFFF; 
@@ -10,6 +10,10 @@
 		span{
 			font-family: "RobotoCondensed-Regular";
 		}
+		button{
+						font-family: "RobotoCondensed-Regular";
+
+		}
 .arkaplan{
 
 	background-image: url(img/backg.jpg);
@@ -17,9 +21,10 @@
     background-position: center;
 }.arkaplan2{
 
-	background-image: url(img/backg2.jpg);
+	background-image: url(img/fot.jpg);
     background-color: #FFFFFF;    background-size: cover;
-    background-position: center;
+	background-position: center;
+	height: 100%
 }
 .MainBosluk{
 	margin-top:5%;
@@ -32,7 +37,6 @@
 .AraForm {
 	
 		height:100%;
-  	background-color: #FFFFFF
 
 	
 }
@@ -41,44 +45,53 @@
 
 .icon-user:before{
 	font-size:50px;
-		align-items:center;
+		align-items:center;	color: #FFFFFF
+
 
 }
 .icon-help:before{
 	font-size:50px;
-	align-items:center;
+	align-items:center;	color: #FFFFFF
+
 }
 .icon-plus-roll:before {
-	font-size:150px;
-	align-items:center;
+	font-size:70px;
+	align-items:center;	color: #FFFFFF
+
 }
 .icon-search:before {
-font-size:150px;
-	align-items:center;
+font-size:70px;
+	align-items:center;	color: #FFFFFF
+
 
 }
 .icon-x-line:before {
 	font-size:200px;
-	align-items:center;
+	align-items:center;	color: #FFFFFF
+
 }
 .icon-checkbox:before {
 	font-size:200px;
-	align-items:center;
+	align-items:center;	color: #FFFFFF
+
 }
 .icon-alert-line:before {
 	font-size:150;
-	align-items:center;
+	align-items:center;	color: #FFFFFF
+
 	
 }
 .icon-arrow1-l{
 	font-size:70px;
-	align-items:center;
+	align-items:center;	color: #FFFFFF
+
 	
 }
 
 .icon-notification:before {
-	font-size:150px;
-	align-items:center;
+	font-size:70;
+	align-items:center;	color: #FFFFFF
+
 }
 
 .mainKullanici p{
@@ -103,23 +116,37 @@ margin-right: 10%
 		  width:100%;
 		  margin-top: 20%;
 
-      filter: alpha(opacity=40);
+	  filter: alpha(opacity=40);
+	  padding:40px;
 }
 .buttonContainer{
 	width:100%;
 	margin:auto;
 	display:flex;
+	    opacity: 0.8;
 }
 .mainbutton span{
 	width:100%;
+	color:#FFFFFF;
 }
+
 
 table, th, td {
-	border: 1px solid black;
-	padding: 10px;
-	width: 100%
+	
+	font-size:30px;
+	background-color:snow;
+			  opacity: 0.9;
+
+			  margin:auto;
+
 
 }
+
+th, td{
+	padding:10px;
+	border: 1px solid #ababab;
+}
+
 select {
     padding:15px;
 	font-size:  30px;
@@ -133,30 +160,41 @@ select {
 .EkleForm button {
     padding: 2%;
 	background-color: #0082C3;
-	left:6%
+	left:6%;
+	font-size:30px;
+	    opacity: 0.8;
 
 	
 
+}
+.EkleForm input{
+
+	padding: 3%
 }
 .EkleForm2{
 
 position: relative;
 	padding: 10%;
+	height: 100%;
 }
 .btnben{
 	padding: 5px;
 	background-color: #0082C3;
     width: 100%;
+	opacity: 0.8;
+	font-size: 30px;
 
-
+}
+.ustyazi{
+	margin-left: 30px;
 }
 .arabutton{
 	
 	background-color: #FFFFFF;
-	font-size:20px; 	
+	font-size:30px; 	
 	padding: 5%;
     width: 100%;
-
+    opacity: 0.8;
 
 }
 .buttonContainer2{
@@ -165,25 +203,33 @@ position: relative;
 	display:flex;
 }
 .EkleForm2 button{
-
+font-size:30px;
 	 padding: 8%;
 	background-color: #0082C3;
-	left:80%
-
+	left:80%;
+    opacity: 0.8;
 }
 
 
 .user-icon{
 background-color: #0082C3;
 border-radius: 50%;
-padding:20px;
-width:20%;
+width:200px;
+height:200px;
 margin:auto;
+opacity: 0.7;
 }
+
+.icon-user{
+	margin-top: 10px;
+	color: #FFFFFF
+}
+
+
 .icon-user:before {
   font-size: 150px;
-  
-  
+  	color: #FFFFFF
+
 }
 .usttaraf{
 

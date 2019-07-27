@@ -9,10 +9,12 @@
 <link rel="stylesheet" href="./icons.css">
 <link href="css/hamburgerbar.css" type="text/css" rel="stylesheet" script="hamburgerbar"/>
 <link href="css/ben.css" type="text/css" rel="stylesheet" script="scriptim"/>
+
+<div class="arkaplan2">
 <div class="usttaraf"> 
    
 <?php include "./Modul/hamburgerbar.php"; ?>
- <span style="color:white">Tüm Ürünler</span>
+ <span style="color:white"class="ustyazi">Tüm Ürünler</span>
 </div>
 <div class="buttonContainer2">
 
@@ -36,31 +38,10 @@
     
 <hr size="14x" color=#0082C3 >
 
-
-    <th>Item</th>
-    <th>Ürüm Adı</th> 
-    <th>Ekleme Tarihi</th>  
-    <th>Gönderilen</th>
-    <th>Gönderen</th>
-    <th>Durum</th>
-
-  </hr>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
+<?php include "./Modul/tablo.php";?>
 
 </div>
-
+</div>
 </div>
 
 

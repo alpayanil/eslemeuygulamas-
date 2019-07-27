@@ -1,7 +1,7 @@
 
 
 <?php
-echo "<table border='1' width='200px'>";
+echo "<table border='1' >";
 echo "<tr>";
 echo "<th>Item</th>";
 echo "<th>Ürün Adı</th>";

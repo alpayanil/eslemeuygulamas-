@@ -14,7 +14,7 @@
  <div class="usttaraf"> 
    
 <?php include "./Modul/hamburgerbar.php"; ?>
- <span style="color:white">Uyarılar</span>
+ <span style="color:white" class="ustyazi">Uyarılar</span>
 </div>
  
 <div class="MainForm MainBosluk">

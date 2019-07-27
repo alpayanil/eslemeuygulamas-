@@ -9,10 +9,11 @@
 <link rel="stylesheet" href="./icons.css">
 <link href="css/hamburgerbar.css" type="text/css" rel="stylesheet" script="hamburgerbar"/>
 <link href="css/ben.css" type="text/css" rel="stylesheet" script="scriptim"/>
-<div class="usttaraf"> 
+<div class="arkaplan2"> 
+  <div class="usttaraf"> 
    
 <?php include "./Modul/hamburgerbar.php"; ?>
- <span style="color:white">Mağazamdaki Ürünler</span>
+ <span style="color:white"class="ustyazi">Mağazamdaki Ürünler</span>
 </div>
 <div class="buttonContainer2">
   
@@ -22,43 +23,22 @@
   <button class="btnben" type="submit" name="btnmag"
     onclick="window.location.href = 'tumumagaza.php';">Mağazam</button>
   <button class="arabutton" type="submit" name="btntum" onclick="window.location.href = 'tumutummagaza.php';">Tüm
-    Mağazalar</button>
+    Mağazalar</button></div>
 
  
-</div>
+
        
-<table style="width:100%" 
- 
-  
-  <tr>
+
 
     
 <hr size="14x" color=#0082C3 >
 
+<?php include "./Modul/tablo.php";?>
 
-    <th>Item</th>
-    <th>Ürüm Adı</th> 
-    <th>Ekleme Tarihi</th>  
-    <th>Gönderilen</th>
-    <th>Gönderen</th>
-<th>Durum</th>
-  </hr>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
 
 </div>
 
-</div>
+
 
 
 
